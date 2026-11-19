@@ -1,0 +1,26 @@
+{
+  "name": "ts-schema-sync",
+  "version": "0.1.0",
+  "description": "Bidirectional TypeScript <-> Zod synchronization with zero runtime overhead",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "zod",
+    "schema",
+    "sync",
+    "codegen"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}
